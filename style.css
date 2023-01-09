@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    background-color: rgba(34, 9, 32, 0.897);
+    color: beige;
+}
+
+.main {
+    margin-left: 45px;
+}
+
+.experince,
+.skills,
+.language,
+.form,
+.objective-title {
+    color: rgba(34, 9, 32, 0.897);
+}
+
+/*--Header----*/
+
+.header-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 35px;
+    position: relative;
+    top: 25px;
+
+}
+
+.header-title,
+.header-text {
+    margin-left: 420px;
+    position: relative;
+    bottom: 150px;
+    padding-top: 5px;
+}
+
+/*---Forma-----*/
+
+.form-box,
+.form-input,
+.form-text {
+    background-color: rgb(240, 197, 234);
+    color: rgba(34, 9, 32, 0.897);
+}
+
+.form,
+.header,
+.main,
+.contacts,
+.objective,
+.experince,
+.skills,
+.language {
+    max-width: 0 auto;
+    margin: o auto;
+}
+
+.form-input,
+.form-text {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.30em solid rgba(185, 136, 136, 0.842);
+    margin-left: none;
+    width: 360px;
+}
+
+.form-input {
+    resize: none;
+}
+
+.form-text {
+    resize: none;
+    margin-left: 21.2em;
+    padding-bottom: 10px;
+    width: 54.2em;
+}
+
+.form-button {
+    background-color: rgba(34, 9, 32, 0.897);
+    color: beige;
+    padding: 13px 65px;
+    margin-left: 20px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+    bottom: 50px;
+}
+
+.form {
+    background-color: rgb(240, 197, 234);
+}
+
+.form-title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.form-conteiner {
+    display: flex;
+    margin-left: 17.7em;
+}
+
+.form-name {
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+/*----Contact----*/
+
+.contacs {
+    background-color: rgba(34, 9, 32, 0.897);
+
+}
+
+.contacs-title,
+.contacs-list {
+    color: beige;
+    margin-left: 15px;
+}
+
+.contacs-silka {
+    color: beige;
+    text-decoration: none;
+}
+
+.contacs-list,
+.language-list {
+    list-style: none;
+}
+
+.contacs-title {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.contacs-list {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+/*----Experince----*/
+
+.experince-title {
+    color: rgba(34, 9, 32, 0.897);
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+
+.experince-box {
+    display: flex;
+    justify-content: space-between;
+    width: 20.5em;
+}
+
+.experince-text {
+    padding-left: 199px;
+    padding-top: 5px;
+    line-height: 22px;
+    padding-bottom: 2.5px;
+}
+
+.e__tit {
+    padding-right: 34px;
+}
+
+.ex__tit {
+    padding-right: 13px;
+}
+
+/*----Objective-----*/
+
+.objective-title {
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.objective-text {
+    padding-top: 15px;
+
+}
+
+/*----Skills-----*/
+
+.skills-title {
+    margin-top: 70px;
+}
+
+.skills-text {
+    margin-top: 25px;
+    margin-bottom: 65px;
+}
+
+/*----Language----*/
+
+.language-title {
+    margin-bottom: 15px;
+}
+
+.language-item::before {
+    content: "\25A0";
+    color: #b9a49e;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
+
+.language {
+    margin-bottom: 70px;
+}
+
+/*----All----*/
+.all {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.all {
+    background-color: rgba(34, 9, 32, 0.897);
+    color: rgba(231, 228, 231, 0.616);
+}
+
+.all-text {
+    margin-left: 15px;
+}
